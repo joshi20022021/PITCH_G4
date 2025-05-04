@@ -20,7 +20,7 @@
 
 ### 1. 🔒 Login
 
-![Login](img/Login.png)
+![Login](Img/Login.png)
 Al ejecutar la aplicación, se despliega una interfaz de inicio de sesión con reconocimiento facial. El usuario solo podrá acceder si su rostro coincide con las muestras registradas previamente en el sistema.
 
 📌 Nota: Asegúrate de tener buena iluminación y posicionar tu rostro correctamente para un escaneo óptimo.
