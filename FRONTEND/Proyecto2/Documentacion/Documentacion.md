@@ -233,7 +233,7 @@ components:
 
 ## Scripts
 
-###Script Luminosidad
+### Script Luminosidad
 ```yaml
 SELECT 
   Fecha AS time,
@@ -245,7 +245,7 @@ ORDER BY
 
 ```
 
-###Script Calidad de Aire
+### Script Calidad de Aire
 ```yaml
 SELECT Fecha AS time, Sala AS value, 'Sala' AS metric FROM Estados
 UNION ALL
@@ -254,7 +254,7 @@ UNION ALL
 SELECT Fecha AS time, Oficina AS value, 'Oficina' AS metric FROM Estados;
 ```
 
-###Script humedad
+### Script humedad
 ```yaml
 SELECT 
   Fecha AS time,
@@ -265,7 +265,7 @@ ORDER BY
   Fecha ASC;
 ```
 
-###Script Usuarios
+### Script Usuarios
 ```yaml
 SELECT 
   id,
@@ -278,7 +278,7 @@ ORDER BY
 ```
 
 
-###Script Datos Historicos
+### Script Datos Historicos
 ```yaml
 SELECT 
   id,
