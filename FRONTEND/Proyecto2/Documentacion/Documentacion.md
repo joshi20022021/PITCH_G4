@@ -233,12 +233,63 @@ components:
 
 ## Scripts
 
+###Script Luminosidad
+```yaml
+SELECT 
+  Fecha AS time,
+  CalidadAire AS value
+FROM 
+  Productivad_bienestar
+ORDER BY 
+  Fecha ASC;
+
+```
+
+###Script Calidad de Aire
 ```yaml
 SELECT Fecha AS time, Sala AS value, 'Sala' AS metric FROM Estados
 UNION ALL
 SELECT Fecha AS time, Cocina AS value, 'Cocina' AS metric FROM Estados
 UNION ALL
 SELECT Fecha AS time, Oficina AS value, 'Oficina' AS metric FROM Estados;
+```
+
+###Script humedad
+```yaml
+SELECT 
+  Fecha AS time,
+  Humedad AS value
+FROM 
+  Productivad_bienestar
+ORDER BY 
+  Fecha ASC;
+```
+
+###Script Usuarios
+```yaml
+SELECT 
+  id,
+  Nombre,
+  Fecha
+FROM 
+  Usuario
+ORDER BY 
+  Fecha DESC;
+```
+
+
+###Script Datos Historicos
+```yaml
+SELECT 
+  id,
+  PromCalidad AS "Promedio Calidad Aire",
+  PromHumedad AS "Promedio Humedad",
+  PromLuminosidad AS "Promedio Luminosidad"
+FROM 
+  Historicos
+ORDER BY 
+  id DESC;
+
 ```
 
 ## Valor Disruptivo del Proyecto
