@@ -28,7 +28,7 @@ Al ejecutar la aplicación, se despliega una interfaz de inicio de sesión con r
 
 
 ### 2. 📊 Dashboard Principal
-![Interfaz de login](img/Principal.png)
+![Interfaz de login](Img/Principal.png)
 Interfaz Principal
 
 Una vez autenticado, se muestra el panel de control principal, que incluye tres opciones interactivas:
@@ -37,7 +37,7 @@ Una vez autenticado, se muestra el panel de control principal, que incluye tres 
   -  🚪 Estado de Habitaciones
 
 ### 3. 🌱 Productividad y Bienestar
-![Interfaz de login](img/Graficas.png)
+![Interfaz de login](Img/Graficas.png)
 Si seleccionamos la opcion de productividad y bienestar nos despliegara la siguiente interfaz en la cual podemos observar el monitoreo de 3 graficas realizadas con p5.js, en la que podemos:
 -  observar la calidad del aire, representada por particulas las cuales se vuelven mas oscuras dependiendo la contaminacion que haya en el aire
 - una bombilla la cual se va reflejando la intensidad luminosa que ella emite en tiempo real, observando tanto el porcentaje como la intensidad de la misma
@@ -46,7 +46,7 @@ Si seleccionamos la opcion de productividad y bienestar nos despliegara la sigui
 
 
 ### 4. Estado de Habitaciones
-![Interfaz de login](img/Habitaciones.png)
+![Interfaz de login](Img/Habitaciones.png)
 
 Al ingresar a la siguiente interfaz de Estado de habitaciones, podremos observar un monitoreo en el cual nos indica si la habitacion esta ocupada o dispnible, intercambiando de color cada boton, reflejado en celeste si esta ocupada y azul si esta disponible
 
