@@ -83,38 +83,44 @@
 .graficas-pie-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
     margin-bottom: 3rem;
-    align-items: center;
-}
+    text-align: center;
+  }
 
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
     .graficas-pie-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 3rem;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 3rem;
     }
-}
+  }
 
 /* Contenedor individual para cada gráfica circular */
 .graficas-pie-chart {
     flex: 1;
-    min-width: 400px;
-    max-width: 500px;
+    min-width: 300px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
 
 /* Estilo del contenedor del gráfico */
 .graficas-chart-wrapper {
-    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    max-width: 500px;
-    position: relative;
-    margin: 0 auto;
-}
+    max-width: 100%;
+  }
 
 /* Estilo de los títulos de las gráficas circulares con gradiente */
 .graficas-pie-title {

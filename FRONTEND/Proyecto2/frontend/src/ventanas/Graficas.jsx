@@ -7,7 +7,7 @@ const Graficas = () => {
   const navigate = useNavigate();
 
   const handleReturn = () => {
-    navigate('/');
+    navigate('/Principal');
   };
 
   // ==================== VARIABLES ====================
@@ -407,7 +407,7 @@ const Graficas = () => {
 
   return (
     <div className="graficas-container">
-      <div className="graficas-header">
+      <div className="graficas-header-container">
         <h1 className="graficas-title">G R A F I C A S</h1>
         <button 
           onClick={handleReturn}
