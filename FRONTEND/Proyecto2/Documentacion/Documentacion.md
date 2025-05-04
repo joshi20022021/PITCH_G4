@@ -233,6 +233,14 @@ components:
 
 ## Scripts
 
+```yaml
+SELECT Fecha AS time, Sala AS value, 'Sala' AS metric FROM Estados
+UNION ALL
+SELECT Fecha AS time, Cocina AS value, 'Cocina' AS metric FROM Estados
+UNION ALL
+SELECT Fecha AS time, Oficina AS value, 'Oficina' AS metric FROM Estados;
+```
+
 ## Valor Disruptivo del Proyecto
 
 El proyecto presenta un valor disruptivo significativo al integrar tecnologías emergentes como **IoT**, **Machine Learning** y **Cloud Computing** en una solución accesible, modular y enfocada en **mejorar el bienestar y la eficiencia energética de espacios de oficina o residenciales**.
